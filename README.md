@@ -11,6 +11,7 @@
 
 <p align="center">
   <img src="./resources/subgenX.png" />
+  <img src="./resources/demo image 2.png" />
 </p>
 
 ---
@@ -21,6 +22,8 @@
 It works seamlessly with your current playback, automatically transcribing and syncing subtitles for movies, TV shows, or even music videos.
 
 > No internet. No external APIs. Just pure local processing.
+
+**NOTE** right now it only supports english language, more languages will be added in later updates
 
 ---
 
@@ -62,3 +65,18 @@ It works seamlessly with your current playback, automatically transcribing and s
 ```bash
 pip install -U openai-whisper ffmpeg-python
 ```
+
+## ⚙ Developer TODOs
+
+- [ ] Implement queue system for batch subtitle generation
+- [ ] Add progress dialog with cancel support while generating subtitles
+- [ ] Add settings menu for model selection (tiny, base, small, medium, large)
+- [ ] Auto-detect media language and select Whisper language accordingly
+- [ ] Implement caching to skip already generated subtitles
+- [ ] Add error handling and detailed Kodi logs
+- [ ] Integrate async processing to avoid UI freezing
+- [ ] Add optional GPU acceleration (CUDA / ROCm) support
+- [ ] Implement Realtime subtitle generation instead of waiting for the whole file to be generated
+- [ ] Add repository XML for automatic updates
+- [ ] Add progress percentage and ETA estimation
+- [ ] Create proper logo and addon artwork for Kodi repository listing
