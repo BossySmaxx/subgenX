@@ -1,0 +1,17 @@
+<addon id="service.subtitles.subgenx" name="subgenx" version="0.0.1" provider-name="bossysmaxx">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.subtitle.module" library="default.py">
+        <provides>subtitle</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Auto-generates subtitles for TV Shows/Movies</summary>
+        <description lang="en">Generates subtitles in real-time using local inference models using
+            Whisper.</description>
+        <platform>all</platform>
+    </extension>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+</addon>
