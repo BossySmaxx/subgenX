@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="subgenX Logo" width="160"/>
+  <img src="./resources/icon.png" />
 </p>
 
 <h1 align="center">subgenX</h1>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="./resources/icon.png" />
+  <img src="./resources/subgenX.png" />
 </p>
 
 ---
