@@ -46,8 +46,9 @@ It works seamlessly with your current playback, automatically transcribing and s
 
    ```bash
 
-   git clone https://github.com/BossySmaxx/subgenX.git [inside your kodi addon folder]
+   git clone https://github.com/BossySmaxx/subgenX.git 
    ```
+[ paste above 👆 inside your kodi addon folder]
 
 ## ⚙ Dependencies
 
